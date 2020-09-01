@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ $UID == 0 ]
+then
+  echo "Please don't run this program as root user."
+else
+  cd /home/$USER/python
+  python3 apache-ctrl.py

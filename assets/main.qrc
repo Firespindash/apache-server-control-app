@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="assets">
+    <file>logo-icon.png</file>
+    <file>logo.png</file>
+    <file>off.png</file>
+    <file>on.png</file>
+    <file>comfortaa.ttf</file>
+  </qresource>
+</RCC>
