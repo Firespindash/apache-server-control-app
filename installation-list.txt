@@ -1,7 +1,0 @@
-apache-server-control -> /usr/local/bin
-apache-ctrl.sh -> /usr/local/bin
-
-apache-ctrl.py -> /home/user/.apache-server-ctrl
-assets/ -> /home/user/.apache-server-ctrl
-main_rc.py -> /home/user/.apache-server-ctrl
-images[...] -> /home/user/.apache-server-ctrl
