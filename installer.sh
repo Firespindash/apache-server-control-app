@@ -24,11 +24,14 @@ else
 		echo 'Categories=Application; Utility' >> apache-server-control.desktop
 
 		sudo cp apache-server-control.desktop /usr/share/applications
+
+		echo "ApacheServerControl has been installed."
 		
 	elif [ $1 == '-u' ] 2> /dev/null
 	then
 		rm -rf /home/$USER/.apache-server-ctrl
-		sudo rm apache-server-control apache-ctrl.sh apache-server-control.desktop
+		sudo rm /usr/bin/apache-server-control /usr/bin/apache-ctrl.sh /usr/share/applications/apache-server-control.desktop
+		echo "ApacheServerControl has been uninstalled."
 	else
 		echo "Please use one of the flags (-i or -u)."
 	fi
