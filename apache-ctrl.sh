@@ -2,7 +2,7 @@
 
 # Author: Firespindash <firespindash@gmail.com>
 # Date: Aug 3rd, 2020
-# Version: 1.3
+# Version: 1.4
 
 # A script to make a simple control interface for apache
 
@@ -55,4 +55,6 @@ elif [ "$1" == '-g' ]
 then
 	apache-server-control
 	echo "Graphical mode has been launched."
+else
+	echo "Please uuse one of the flags, the flags are '-i', '-t', '-e', '-d', '-g'."
 fi
