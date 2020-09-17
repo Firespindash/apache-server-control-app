@@ -13,7 +13,7 @@ else
 		cp *.png /home/$USER/.apache-server-ctrl
 
 		echo '[Desktop Entry]' > apache-server-control.desktop
-		echo 'Version=1.1' >> apache-server-control.desktop
+		echo 'Version=1.2' >> apache-server-control.desktop
 		echo "Exec=/home/$USER/apache-server-control" >> apache-server-control.desktop
 		echo "Icon=/home/$USER/python/assets/logo-icon.png" >> apache-server-control.desktop
 		echo 'Name=Apache Server Control' >> apache-server-control.desktop
