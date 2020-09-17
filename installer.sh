@@ -9,7 +9,7 @@ else
 		mkdir /home/$USER/.apache-server-ctrl
 		cp -r assets /home/$USER/.apache-server-ctrl
 		cp apache-ctrl.py main_rc.py /home/$USER/.apache-server-ctrl 
-		sudo cp apache-server-control apache-ctrl.sh /usr/local/bin
+		sudo cp apache-server-control apache-ctrl.sh /usr/bin
 		cp *.png /home/$USER/.apache-server-ctrl
 
 		echo '[Desktop Entry]' > apache-server-control.desktop
