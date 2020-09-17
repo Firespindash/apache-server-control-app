@@ -23,6 +23,7 @@ else
 		echo 'Type=Application' >> apache-server-control.desktop
 		echo 'Categories=Application; Utility' >> apache-server-control.desktop
 
+		chmod +x apache-server-control.desktop
 		sudo cp apache-server-control.desktop /usr/share/applications
 
 		echo "ApacheServerControl has been installed."
