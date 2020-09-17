@@ -6,3 +6,4 @@ then
 else
   cd /home/$USER/.apache-server-ctrl
   python3 apache-ctrl.py
+fi
