@@ -15,4 +15,4 @@ If you get any error, the mini terminal in-app won't show what is happening, to 
 This program doesn't pre-install its dependencies. The dependencies are _python3_, _PyQt5_, _apache/httpd_, and _systemd_.
 Now there is an cli installer wizard to install it to be system-wide. To install you can type `./installer.sh -i` and to uninstall you can type `./installer.sh -u` in the terminal. \
 You also have an option to run a headless mode by typing in terminal `apache-ctrl.sh` with one of the flags, that are `-i`, `-t`, `-e`, `-d` and `-h` for help.
-The parts of this project have different version numbers, but the overall version is 1.2 and it is showed in the **apache-server-control.desktop** file.
+The parts of this project have different version numbers, but the overall version is 1.2 and it is shown in the **apache-server-control.desktop** file.
