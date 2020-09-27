@@ -97,25 +97,23 @@ class Ui_MainWindow(object):
         self.frame_terminal.setObjectName("frame_terminal")
         self.frame_terminal.hide()
         # Functions
-        dir = os.path.abspath(os.getcwd())
-        print(dir)
         def activate():
-            myCmd = 'pkexec ' + dir + '/apache-ctrl.sh -i'
+            myCmd = 'pkexec /usr/bin/apache-ctrl.sh -i'
             out = os.popen(myCmd).read()
             showOutput(out)
 
         def deactivate():
-            myCmd = 'pkexec ' + dir + '/apache-ctrl.sh -t'
+            myCmd = 'pkexec /usr/bin/apache-ctrl.sh -t'
             out = os.popen(myCmd).read()
             showOutput(out)
 
         def enable():
-            myCmd = 'pkexec ' + dir + '/apache-ctrl.sh -e'
+            myCmd = 'pkexec /usr/bin/apache-ctrl.sh -e'
             out = os.popen(myCmd).read()
             showOutput(out)
 
         def disable():
-            myCmd = 'pkexec ' + dir + '/apache-ctrl.sh -d'
+            myCmd = 'pkexec /usr/bin/apache-ctrl.sh -d'
             out = os.popen(myCmd).read()
             showOutput(out)
 
