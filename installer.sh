@@ -15,7 +15,7 @@ else
 		echo '[Desktop Entry]' > apache-server-control.desktop
 		echo 'Version=1.2' >> apache-server-control.desktop
 		echo "Exec=/usr/bin/apache-server-control" >> apache-server-control.desktop
-		echo "Icon=/home/$USER/python/assets/logo-icon.png" >> apache-server-control.desktop
+		echo "Icon=/home/$USER/.apache-server-control/assets/logo-icon.png" >> apache-server-control.desktop
 		echo 'Name=Apache Server Control' >> apache-server-control.desktop
 		echo 'Comment=A new blazing-fast app to control Apache Server.' >> apache-server-control.desktop
 		echo 'Encoding=UTF-8' >> apache-server-control.desktop
