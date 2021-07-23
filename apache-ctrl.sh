@@ -56,5 +56,5 @@ then
 	apache-server-control
 	echo "Graphical mode has been launched."
 else
-	echo "Please uuse one of the flags, the flags are '-i', '-t', '-e', '-d', '-g'."
+	echo "Please use one of the flags, the flags are '-i', '-t', '-e', '-d', '-g'."
 fi
