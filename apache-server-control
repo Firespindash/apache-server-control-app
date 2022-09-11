@@ -1,9 +1,8 @@
-#!/bin/bash
+#!/bin/sh
 
-if [ $UID == 0 ]
+if [ $(id -u) = 0 ]
 then
-  echo "Please don't run this program as root user."
+    echo "Please don't run this program as root user."
 else
-  cd /home/$USER/.apache-server-ctrl
-  python3 apache-ctrl.py
+    python3 /usr/local/share/apache-server-ctrl/apache-ctrl.py
 fi
