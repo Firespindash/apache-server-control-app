@@ -6,7 +6,7 @@ then
 else
     [ $(which /bin/sudo) ] && authenticator='sudo' ||
       { [ $(which /bin/doas) ] && authenticator='doas'; } ||
-      { echo "Sudo/doas authenticator agent was not found, please install one."; exit; }	
+      { echo "Sudo/doas authenticator agent was not found, please install one."; exit; }
 
     [ "$1" ] && flag="$1" || flag='-i'
 
@@ -19,7 +19,7 @@ else
 
         echo '[Desktop Entry]' > apache-server-control.desktop
         echo 'Version=1.3' >> apache-server-control.desktop
-        echo "Exec=/usr/bin/apache-server-control" >> apache-server-control.desktop
+        echo "Exec=/usr/local/bin/apache-server-control" >> apache-server-control.desktop
         echo "Icon=/usr/local/share/apache-server-ctrl/assets/logo-icon.png" >> apache-server-control.desktop
         echo 'Name=Apache Server Control' >> apache-server-control.desktop
         echo 'Comment=A new blazing fast app to control the Apache Server.' >> apache-server-control.desktop
